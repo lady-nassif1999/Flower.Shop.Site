@@ -1,0 +1,605 @@
+*,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/* start container */
+.container{
+padding-left: 50px;
+padding-right: 50px;
+margin-left: 50px;
+margin-right: 50px;
+}
+/* end container */
+
+/* start header */
+header{
+    width: 100%;
+    height: 65px;
+    background-color: darkred;
+    color:#fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+   padding-right: 50px;
+}
+/* header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+} */
+header span{
+    font-size: 35px;
+    font-weight: 900;
+    
+}
+ header nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+ }
+ header nav ul li{
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: larger;
+    color:#fff;
+ }
+/* end header */
+
+/* start class smartedu */
+.smartedu{
+    
+    background-image:url(img/lolo.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.smartedu .container{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: relative;
+    
+}
+.smartedu .container h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: darkred;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+ p{
+    font-size: larger;
+    font-weight: 700;
+}
+.smartedu .container span{
+    color:#fff;
+}
+.smartedu .container button{
+    padding:5px 40px;
+    font-size: larger;
+    color:#fff;
+    font-weight: 400;
+    background-color: darkred;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+}
+.smartedu i:first-child{
+    position: absolute;
+    left: 99px;
+    top: 201px;
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+.smartedu i:last-child{
+    position: absolute;
+    right: 99px;
+    top: 201px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.smartedu .radius{
+ 
+    width: 150px;
+    height: 40px;
+    margin: 20px auto;
+    position:absolute;
+    bottom: 0;
+    left: 40%;
+    border-radius: 80px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+}
+.radius div{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 0 auto;
+}
+/* end class smartedu */
+
+ /* start class what we do */
+
+ /* start class text */
+ .text{
+    margin:10px auto;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+   
+ }
+ .text h1{
+  font-size: 35px;
+  font-weight: bold;
+  color:black;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+  
+ }
+ .text span{
+    font-size: 35px;
+    font-weight: bold;
+    color:darkred;   
+ }
+ .text h1{
+   position: relative;
+}
+.text h1::after{
+   content: "";
+   position:absolute;
+   left:45%;
+   bottom:5px;
+   width: 10%;
+   height: 2px;
+   background-color: darkred;
+}
+ /* end class text */
+
+ /* start class what we do */
+ .sixcard {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    gap: 20px;
+ }
+ .sixcard .col .card{
+    background-color: darkred;
+    margin: 10px auto;
+    width:300px;
+    height: 280px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+ .sixcard .col .card i,
+ .sixcard .col .card h1{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    
+ }
+ .sixcard .col .card p{
+    color: #fff;
+ }
+ .sixcard .col .card button{
+    padding: 5px 20px;
+    margin-top: 12px;
+    font-weight: 800;
+    cursor: pointer;
+ }
+ .sixcard .col .card:hover{
+   background-color: rgb(192, 185, 176); 
+   cursor: pointer;
+   
+ }
+ 
+ .sixcard .col .card h1:hover{
+  color:black
+ }
+ .sixcard .col .card i:hover{
+    color:black
+   }
+   .sixcard .col .card p:hover{
+    color:black
+   }
+   .sixcard .col .card button:hover{
+    color:darkred;
+    padding: 10px 40px;
+   }
+ /* end class what we do */
+ /* start class red */
+ .red{
+    background-color: darkred;
+    height: 200px;
+    text-align: center;
+    color: #fff;
+    margin: 30px auto;
+ }
+ .red h2{
+    font-size: 35px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+ }
+ .red button{
+    padding: 5px 30px;
+    background-color: inherit;
+    border-radius: 40px;
+    border:1px solid #fff;
+    color: #fff;
+    font-weight: 500;
+ }
+ /* end class red */
+
+ /* start class recent work */
+
+.fourcard .card{
+width: 100%;
+height: 240px;
+
+}
+.fourcard .card img{
+    width: 100%;
+    height: 100%;
+    
+}
+.fourcard .col .card:first-child{
+
+    background-image: url(img/pexels-hiếu-hoàng-1179863.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+    position: relative;
+    
+
+}
+.fourcard .col .card h2{
+   color: darkred;
+   font-weight: bold;
+   font-size: 35px;
+   text-transform: capitalize;
+   text-align: center;
+   padding: 30px 20px 10px;
+}
+.recentwork .fourcard .col .card button{
+   color:#fff;
+   font-weight: 600;
+   padding: 10px 27px;
+   border: 1px solid #fff;
+   background-color:inherit;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%);
+   }
+
+.fourcard .col .card p{
+   color:#fff;
+   font-weight: 600;
+   text-align: center;
+   padding-bottom: 30px;
+   padding-left: 20px;
+   padding-right: 20px;
+   
+}
+.fourcard{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 0px;}
+.recentwork .container{
+ position: relative;
+ 
+        }      
+.recentwork .container button{
+ background-color: darkred;
+ color: #fff;
+ font-weight: bold;
+ border-radius: 10px;
+ padding: 10px 40px;
+ border: none;
+ margin: 10px;
+ position: absolute;
+ left: 50%;
+ transform: translate(-50%);
+}
+.recentwork{
+   padding-bottom: 30px;
+   
+}
+ /* end class recent work */
+
+  /* start class black */
+  .black {
+   background-image: url('img/aaa.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   filter: grayscale(100%);
+   height: 200px;
+   text-align: center;
+   color:aliceblue;
+   margin: 30px auto;
+   
+  }
+  
+  .black h1{
+   text-align: center;
+   font-weight: bold;
+   font-size:25px;
+   padding-top: 20px;
+   text-transform: uppercase;
+   display:block;
+  }
+  .number{
+   display: flex;
+   text-align: center;
+   justify-content: space-around;
+  }
+  .number h1{
+   font-size: 40px;
+  }
+  /* end class black */
+
+  /* start class ourskill */
+  .mix{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   
+  }
+  .mix .imgcol{
+   width: 260px;
+   height: 300px;
+  }
+  .mix .imgcol img{
+   width: 100%;
+   height: 100%;
+  }
+  .mix .row .img{
+   width: 200px;
+   height: 140px;
+   margin-bottom: 20px;
+  }
+  .mix  .row img{
+   width: 100%;
+   height: 100%;
+  }
+  .rect{
+   height: 300px;
+   /* width: 100%; */
+  }
+  .rect div{
+   height: 16px;
+   width: 250px;
+   margin-bottom: 70px;
+   text-align: center;
+  }
+  .rect :nth-child(2){
+   background-image: linear-gradient(to right,red 10%,red 50% ,gray 50%, gray 100%);
+  }
+  .rect :nth-child(4){
+   background-image: linear-gradient(to right,red 10%,red 70% ,gray 70%, gray 100%);
+  }
+  .rect :nth-child(6){
+   background-image: linear-gradient(to right,red 10%,red 90% ,gray 90%, gray 100%);
+  }
+  .rect h3{
+   padding-bottom: 10px;
+  }
+  /* end class ourskill */
+
+  /* start class ourteam */
+  .ourteam {
+   background-color: darkred;
+   padding-bottom: 30px;
+   width: 100%;
+  }
+  
+  .ourteam .container .text{
+   color:#fff;
+  }
+  .ourteam .container .text h1{
+   color: #fff;
+   padding-top: 40px;
+  }
+  .threecard .blackimg{
+   width: 220px;
+   height: 200px;
+
+  }
+  .threecard .blackimg img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+  }
+  .threecard{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+   
+  }
+  /* start class ourteam */
+
+  /* start class client */
+
+  .flexy{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   height: 140px;
+  }
+  .client .container .flexyimg{
+   width: 600px;
+   height: 100%;
+   margin-right: 15px;
+   background-image: url('img/purble.jpg');
+   background-size: cover;
+
+  }
+
+  .client i {
+   position: absolute;
+   right: 99px;
+   top: 146px;
+   font-size: 50px;
+   cursor: pointer;
+}
+.client i:first-child{
+   position: absolute;
+   left: 99px;
+   top: 146px;
+   font-size: 50px;
+   cursor: pointer;
+   
+}
+  .client .container p{
+   text-align: left;
+   line-height: 30px;
+   height: 100%;
+   padding: 0px;
+  }
+  .client{
+   background-image: url('img/aaa.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding-bottom: 40px;
+   position: relative;
+     }
+     .client .container h2{
+      margin: 0;
+      padding-top: 30px;
+      font-weight: bold;
+      color:#fff;}
+ /* end class client */
+     
+/* start class latest */
+    .sos {
+      width: 290px;
+      filter: grayscale(100%);
+      background-color: rgb(183 185 183 / 42%);
+      text-align:left;
+    }
+    .sos .endimg1{
+      background-image: url("img/lolo.jpg");
+      background-size: cover;
+      height: 200px;
+   }
+   .sos .endimg2{
+      background-image: url("img/bbb.jpg");
+      background-size: cover;
+      height: 200px;
+   }
+   .sos .endimg3{
+      background-image: url("img/333.jpg");
+      background-size: cover;
+      height: 200px;
+   } 
+    .latest{
+      margin-bottom: 20px;
+    }
+  
+    .sos p,h3,span{
+      padding-left: 15px;
+      padding-bottom: 5px;
+    }
+    .sos button{
+      padding: 0px 10px;
+      margin-left: 15px;
+      margin-bottom: 10px;
+    }
+   .sos h3{
+      font-weight:bolder;
+   }
+   .sos span{
+      color:red;
+   }
+   .sos p{
+      font-weight: 300;
+   }
+ 
+   
+   /* end class latest
+
+/* start class contact */
+.contact{
+      padding-bottom: 80px;
+      background-color: #040326;
+      position: relative;
+   }
+.contact .input{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+   }
+.contact .container .text h1,
+.contact .container .text p{
+      color: #fff;
+      padding: 20px;
+  
+   }
+
+.contact .input input{
+      border: none;
+      padding-bottom: 10px;
+      padding-top: 40px;
+      background-color: #040326;
+      border-bottom: 1px solid #fff;
+      color:#fff;
+   }
+.contact button{
+      position: absolute;
+      left: 50%;
+      margin-top: 20px;
+      transform: translate(-50%) ;
+      background-color: darkred;
+      color: #fff;
+      font-weight: bold;
+      padding: 10px 30px;
+      border-radius: 10px;
+      border: none;
+   }
+  .contact .text h1{
+      position: relative;
+   }
+   .contact .text h1::after{
+      content: "";
+      position:absolute;
+      left:45%;
+      bottom:5px;
+      width: 10%;
+      height: 2px;
+      background-color: #fff;
+   }
+   /* end class contact */
+
+   /* start footer */
+footer{
+      background-color: darkred;
+      color: #fff;
+      text-align: center;
+      height: 40px;
+      padding-top: 10px;
+   }
+/* end footer */
+@media (max-width:950px){
+   .fourcard{
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+   .col22{
+      display: none;
+   }
+   .mix{
+      flex-direction: column;
+      align-items: center;
+   }
+   
+}
